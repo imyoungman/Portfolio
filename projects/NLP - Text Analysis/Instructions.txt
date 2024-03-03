@@ -1,0 +1,15 @@
+1. Copy the all file and folders into same directory.
+2. Open testing.py file in you IDE
+3. Install the required libraries from 'requirements.txt' file by 'pip install -r requirements.txt' without single quotes.
+
+--- Before running the program adjust the 'num_processes = 6' variable in line 13 of code 
+   according to how many processor your system have for multiprocessing in parallel. ---
+
+4. Run the testing.py file
+5. It will create 'extracted_files' folder to save the articles extracted from input.xlsx file
+   where every file is saved with the URL_ID as their name
+6. Program saves the output in 'Output Data Structure.xlsx' file in the same directory in the required format.
+7. Explanation of the program is given in Word File.
+
+Note:-
+ 	The output contains Empty or Null values for some URL_ID which denotes 'Url not exist' or 'page not found'
